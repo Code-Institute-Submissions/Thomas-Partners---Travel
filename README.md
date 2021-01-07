@@ -13,6 +13,7 @@ I want a returning vistior to find and follow our social media links.
 ### Colour Scheme
 ### Typography
 ### Imagery
+Images are provided by Pexels
 ### Wireframes
 ## Features
 The site is responsive on all screen sizes with interactive elements.
