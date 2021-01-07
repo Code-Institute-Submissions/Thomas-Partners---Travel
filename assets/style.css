@@ -1,19 +1,69 @@
-#header {margin-bottom: 0;
-    
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: rgb(240, 255, 255);
+  color: black;}
+
+  .header p {
+      font-style: oblique;
+  }
+
+
+#footer {margin-bottom:0;}
+
+.nav {
+    background-color: black;
+   
 }
 
-#footer {margin-bottom:0;
-    
-}
-#follow a {font-size: 30px;}
-#Consultancy p {text-align: left;
+.nav a { color: lightgray;
 }
 
-.form   {
-    width: 200px;}
+.nav button {color:  white;}
 
-#message {height: 400px;width: 200px;}
+.active { color: white;
+}
 
-.contact a {text-align-last: left;  }
+/*parralax*/
+.p1, .p2, .p3 { 
+  /* The image used */
+ 
 
-.contact i{font-size: 30px;}
+  /* Set a specific height */
+  min-height: 400px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.70;
+}
+
+.p1{ background-image: url('../assets/images/about.jpg');}
+.p2{ background-image: url('../assets/images/social\ responsibility.jpg');}
+.p3{ background-image: url('../assets/images/environmental\ responsibility.jpg');}
+
+.section { text-align: center;
+    padding: 50px 80px;
+}
+.light{
+    background: rgb(240, 255, 255);
+  color: black;}
+
+  .dark{
+    background: #282e34;
+  color: #ddd;}
+
+  .footer{
+       background: #282e34;
+  color: #ddd;
+  text-align: center;
+padding: 30px;}
+
+.footer a  {
+    color: lightgray;
+}
+
