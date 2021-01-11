@@ -15,16 +15,19 @@
 
 .nav {
     background-color: black;
+    color: grey;
    
 }
+.active li a {
+    color: white;
+}
 
-.nav a { color: lightgray;
+.nav a { color: grey;
 }
 
 .nav button {color:  white;}
 
-.active { color: white;
-}
+
 
 /*parralax*/
 .p1, .p2, .p3 { 
@@ -45,25 +48,108 @@
 .p1{ background-image: url('../assets/images/about.jpg');}
 .p2{ background-image: url('../assets/images/social\ responsibility.jpg');}
 .p3{ background-image: url('../assets/images/environmental\ responsibility.jpg');}
+.p4{ background-image: url('../assets/images/consultant.jpg');}
 
 .section { text-align: center;
     padding: 50px 80px;
 }
 .light{
     background: rgb(240, 255, 255);
-  color: black;}
+    color: black;
+   
+}
 
   .dark{
     background: #282e34;
-  color: #ddd;}
+    color:#f8f8ff;
+
+  }
 
   .footer{
        background: #282e34;
-  color: #ddd;
-  text-align: center;
-padding: 30px;}
+       color:#f8f8ff;
+       text-align: center;
+       padding: 30px;}
 
 .footer a  {
     color: lightgray;
 }
 
+.box{
+    text-align: center;
+    list-style-type: none;
+    border: 1px solid #0000;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+.box ul li {
+    text-align: center;
+}
+
+.box:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+#bronze {
+    background-color: #cd7f32;
+   color:#f8f8ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+
+}
+
+#silver {
+    background-color: #C0C0C0;
+    color:#f8f8ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+}
+
+#gold {
+    background-color: #CCAC00;
+    color:#f8f8ff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: x-large;
+    text-transform: uppercase;
+    border-style: solid;
+    border-color: white;
+}
+
+.pricing {
+    background-color: #f8f8ff;
+    color:#000000;
+    font-size: larger;
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+
+}
+.button {
+ border: none;
+ background-color: #36454f;
+ color:#f8f8ff;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+   border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.button:hover {
+box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
