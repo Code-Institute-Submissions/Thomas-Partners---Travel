@@ -1,4 +1,7 @@
 
+body{
+    font-family: 'Lato', sans-serif;
+}
 
 .header {
   padding: 60px;
@@ -24,20 +27,11 @@
 
 .nav a { color: grey;
 }
-
 .nav button {color:  white;}
 
+.p1, .p2, .p3, .p4,.p5{ 
 
-
-/*parralax*/
-.p1, .p2, .p3 { 
-  /* The image used */
- 
-
-  /* Set a specific height */
   min-height: 400px; 
-
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -49,6 +43,7 @@
 .p2{ background-image: url('../assets/images/social\ responsibility.jpg');}
 .p3{ background-image: url('../assets/images/environmental\ responsibility.jpg');}
 .p4{ background-image: url('../assets/images/red\ consulatant.jpg');}
+.p5{ background-image: url('../assets/images/meeting.jpg');}
 
 .section { text-align: center;
     padding: 50px 80px;
@@ -58,6 +53,16 @@
     color: black;
    
 }
+
+#social { 
+    background: #3b5998;
+    color: #ffffff;
+}
+#green  {
+    background-color: #00873E;
+    color: #ffffff;
+}
+
 
   .dark{
     background: #282e34;
@@ -147,4 +152,8 @@
 .button:hover {
   background-color: #f8f8ff;
   color: black;
+}
+
+ul#contact li{
+    display:inline;
 }
