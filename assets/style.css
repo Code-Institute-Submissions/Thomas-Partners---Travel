@@ -7,14 +7,15 @@ body{
   padding: 60px;
   text-align: center;
   background: rgb(240, 255, 255);
-  color: black;}
+  color: black;
+}
 
   .header p {
       font-style: oblique;
   }
 
-
-#footer {margin-bottom:0;}
+#footer {margin-bottom:0;
+}
 
 .nav {
     background-color: black;
@@ -25,18 +26,28 @@ body{
     color: white;
 }
 
-.nav a { color: grey;
+.nav a {
+    color: grey;
 }
-.nav button {color:  white;}
 
-.p1, .p2, .p3, .p4,.p5, .p6{ 
+.nav button {
+    color:  white;
+}
 
+.p1, .p2, .p3, .p4, .p5{
   min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.70;
+}
+
+.p6 {
+    min-height: 900px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .p1{ background-image: url('../assets/images/about.jpg');}
@@ -49,6 +60,7 @@ body{
 .section { text-align: center;
     padding: 50px 80px;
 }
+
 .light{
     background: rgb(240, 255, 255);
     color: black;
@@ -59,26 +71,41 @@ body{
     background: #3b5998;
     color: #ffffff;
 }
+
 #green  {
     background-color: #00873E;
     color: #ffffff;
 }
 
-
   .dark{
     background: #282e34;
     color:#f8f8ff;
-
   }
 
-  .footer{
-       background: #282e34;
+.footer{
+       background:#000000;
        color:#f8f8ff;
+       padding: 30px;
+       font-size: medium;
        text-align: center;
-       padding: 30px;}
+    }
 
 .footer a  {
-    color: lightgray;
+    color: #f8f8ff;
+    letter-spacing: 1px;
+}
+
+.footer-form{
+font-size: medium; 
+height: 10px;
+display: inline-block;
+
+}
+
+
+}
+.right{
+    float: right;
 }
 
 .box{
@@ -89,9 +116,9 @@ body{
     border-color: #000000;
     margin: 0;
     padding: 0;
-    -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+
 .box ul li {
     text-align: center;
 }
@@ -99,7 +126,6 @@ body{
 .box:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
-
 
 #bronze {
     background-color: #cd7f32;
@@ -115,8 +141,6 @@ body{
     text-align: center;
     border-color: #36454f;
     border-style: solid;
-    
-
 }
 
 #silver {
@@ -133,7 +157,6 @@ body{
     text-align: center;
     border-color: #36454f;
     border-style: solid;
-    
 }
 
 #gold {
@@ -151,8 +174,8 @@ body{
     text-align: center;
     border-color: #36454f;
     border-style: solid;
-   
 }
+
 
 .pricing {
     background-color: #f8f8ff;
@@ -164,18 +187,18 @@ body{
 
 }
 .button { 
-      display: block;
-  width: 100%;
-  border: none;
-  background-color:	#00BFFF;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  text-align: center;
-  font-weight: bold;
-  color: #f8f8ff;
-  border-style: solid;
-  border-color: #36454f;
+    display: block;
+    width: 100%;
+    border: none;
+    background-color:#00BFFF;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    color: #f8f8ff;
+    border-style: solid;
+    border-color: #36454f;
 }
 
 .button:hover {
@@ -207,4 +230,19 @@ ul#contact li{
   border-color: #36454f;
 }
 
-  
+#form {
+    padding: 11% 0 0 65%;
+    text-align: left;
+    list-style-type: none;
+    border: 1px ;
+    transition: 0.3s;
+    
+}
+
+textarea, input{
+  width: 50%;
+  height: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
