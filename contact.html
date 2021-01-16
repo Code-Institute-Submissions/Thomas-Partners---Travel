@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <title>Thomas & Partners</title>
 </head>
 <nav>
@@ -35,58 +44,48 @@
     </nav>
 </nav>
 <main>
-    <div class="row">
-        <div class="container-fluid">
-            <div class="p6">
-                <div id="form">
-                    <form>
-                        <h2>Message Us</h2>
-                        <label for="name"> Name:</label><br>
-                        <input type="text" name="Name" placeholder="Name" required><br>
-                        <label for="telephone">Telephone:</label><br>
-                        <input type="number" name="Telephone" placeholder="Telephone Number"><br>
-                        <label for="email">Email:</label><br>
-                        <input type="email" name="email" placeholder="Email Address" required="@"><br>
-                        <label for="message">Message:</label><br>
-                        <textarea id="message" name="message" placeholder="Your Enquiry" size="50"></textarea><br>
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
-            </div>
-        </div>
+    <div class="container-fluid p6">
+        <form id="message-us-form">
+            <h2>Message Us</h2>
+            <label for="name"> Name:</label><br>
+            <input type="text" name="Name" placeholder="Name" required><br>
+            <label for="telephone">Telephone:</label><br>
+            <input type="number" name="Telephone" placeholder="Telephone Number"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" placeholder="Email Address" required="@"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your Enquiry" size="50"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 
     </div>
-    <div class="row light">
-        <div class="container section">
-            <h2>Find Us</h2><br>
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.3255904537027!2d-0.10437056985844854!3d51.51553136442578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b52c7eaaaab%3A0x81740dd29616811d!2sNexus%20Farringdon!5e0!3m2!1sen!2suk!4v1609066630160!5m2!1sen!2suk"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
-            <br>
-
-            <ul id="contact">
-                <li><a href="https://goo.gl/maps/X8f1LrWQmYdHhSUz9" target="_blank"><i class="fas fa-map-pin"></i>
-                        Nexus Place, 25 Farringdon Street, London EC4A 4AF|</a></li>
-                <li><a href="tel:07581059340"><i class="fas fa-phone-square-alt"></i> 0207-123-456|</a></li>
-                <li><a href="mailto:coopsx@googlemail.com"> <i class="fas fa-envelope"></i>
-                        hello@thomaspartners.co.uk</a></li>
-            </ul>
-        </div>
+    <div class="container-fluid light section">
+        <h2>Find Us</h2><br>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.3255904537027!2d-0.10437056985844854!3d51.51553136442578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b52c7eaaaab%3A0x81740dd29616811d!2sNexus%20Farringdon!5e0!3m2!1sen!2suk!4v1609066630160!5m2!1sen!2suk"
+            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        <br>
+        <ul id="contact">
+            <li><a href="https://goo.gl/maps/X8f1LrWQmYdHhSUz9" target="_blank"><i class="fas fa-map-pin"></i>
+                    Nexus Place, 25 Farringdon Street, London EC4A 4AF|</a></li>
+            <li><a href="tel:07581059340"><i class="fas fa-phone-square-alt"></i> 0207-123-456|</a></li>
+            <li><a href="mailto:coopsx@googlemail.com"> <i class="fas fa-envelope"></i>
+                    hello@thomaspartners.co.uk</a></li>
+        </ul>
     </div>
-
 </main>
 
 <footer>
     <div class="row footer">
-        <div class="col-sm-4">
+        <div class="col-sm-4 footer-social">
             <h3>Thomas & Partners </h3>
-            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com" id="fbook" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com" id="inst" target="_blank"><i class="fab fa-instagram-square"></i></a>
+            <a href="https://www.linkedin.com" id="link" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.twitter.com" id="twit" target="_blank"><i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.youtube.com" id="you" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
         <div class="col-sm-4">
             <h3>Contact us </h3>

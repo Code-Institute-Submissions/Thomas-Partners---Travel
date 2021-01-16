@@ -14,7 +14,84 @@ body{
       font-style: oblique;
   }
 
+  /*footer*/
 #footer {margin-bottom:0;
+}
+
+.footer{
+       background:#000000;
+       color:#f8f8ff;
+       padding: 30px
+}
+
+.footer-social {
+    text-align: center;  
+}
+
+
+
+
+.footer-social a{
+    color: #f8f8ff;
+    letter-spacing: 7.5px;
+    font-size: x-large;
+}
+
+#fbook:hover{
+    color: #4267B2;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+#link:hover{
+    color: #2867B2;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+#inst:hover {
+    color: #C13584;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+#twit:hover {
+    color: #1DA1F2;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+#you:hover{
+    color: #FF0000;
+    font-size: xx-large;
+    transition: 0.3s;
+}
+
+.footer-form{
+    display: inline;
+    width: 250px;
+    height: 20px;
+}
+
+.footer-contact a{
+    float: left;
+    color: #f8f8ff;
+}
+.footer-sub{
+    text-align: center;
+}
+
+.footer-form {
+    letter-spacing: 5px;
+    text-align: center;
+}
+.btn-light{
+    background-color: #f8f8ff;
+}
+
+.btn-light:hover{
+    background-color: black;
+    color: #f8f8ff;
 }
 
 .nav {
@@ -82,28 +159,6 @@ body{
     color:#f8f8ff;
   }
 
-.footer{
-       background:#000000;
-       color:#f8f8ff;
-       padding: 30px;
-       font-size: medium;
-       text-align: center;
-    }
-
-.footer a  {
-    color: #f8f8ff;
-    letter-spacing: 1px;
-}
-
-.footer-form{
-font-size: medium; 
-height: 10px;
-display: inline-block;
-
-}
-
-
-}
 .right{
     float: right;
 }
