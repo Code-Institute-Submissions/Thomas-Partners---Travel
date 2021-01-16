@@ -288,6 +288,11 @@ ul#contact li{
   border-color: #36454f;
 }
 
+#mice:hover{
+    opacity: .75;
+    color: #36454f;
+}
+
 #form {
     padding: 11% 0 0 65%;
     text-align: left;
