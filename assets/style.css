@@ -10,7 +10,7 @@ body{
   color: black;
 }
 
-  .header p {
+  .header h5 {
       font-style: oblique;
   }
 
@@ -152,6 +152,11 @@ body{
 #green  {
     background-color: #00873E;
     color: #ffffff;
+}
+
+#ecological { 
+    height: 128px;
+    width: 128px;   
 }
 
   .dark{
