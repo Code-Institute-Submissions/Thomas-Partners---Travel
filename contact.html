@@ -31,51 +31,40 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link " href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link " href="service.html">Service</a>
+                    <a class="nav-link" href="service.html">Service</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link active" href="contact.html">Contact</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
 </nav>
-<main>
-    <div class="container-fluid p6">
-        <form id="message-us-form">
-            <h2>Message Us</h2>
-            <label for="name"> Name:</label><br>
-            <input type="text" name="Name" placeholder="Name" required><br>
-            <label for="telephone">Telephone:</label><br>
-            <input type="number" name="Telephone" placeholder="Telephone Number"><br>
-            <label for="email">Email:</label><br>
-            <input type="email" name="email" placeholder="Email Address" required="@"><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" placeholder="Your Enquiry" size="50"></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
+<div class="p6"></div>
+<div class="container">
+    <div class="wrapper">
+        <div class="title">
+            <h1>Contact Us</h1>
+        </div>
 
+        <div class="contact-form">
+            <div class="input-fields">
+                <input type="text" class="input" placeholder="Name">
+                <input type="text" class="input" placeholder="Email Address">
+                <input type="text" class="input" placeholder="Phone">
+                <input type="text" class="input" placeholder="Subject">
+            </div>
+
+            <div class="msg">
+                <textarea placeholder="Message"></textarea>
+                <div class="btn">send</div>
+            </div>
+        </div>
     </div>
-    <div class="container-fluid light section">
-        <h2>Find Us</h2><br>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1476.3255904537027!2d-0.10437056985844854!3d51.51553136442578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b52c7eaaaab%3A0x81740dd29616811d!2sNexus%20Farringdon!5e0!3m2!1sen!2suk!4v1609066630160!5m2!1sen!2suk"
-            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-            tabindex="0"></iframe>
-        <br>
-        <ul id="contact">
-            <li><a href="https://goo.gl/maps/X8f1LrWQmYdHhSUz9" target="_blank"><i class="fas fa-map-pin"></i>
-                    Nexus Place, 25 Farringdon Street, London EC4A 4AF|</a></li>
-            <li><a href="tel:07581059340"><i class="fas fa-phone-square-alt"></i> 0207-123-456|</a></li>
-            <li><a href="mailto:coopsx@googlemail.com"> <i class="fas fa-envelope"></i>
-                    hello@thomaspartners.co.uk</a></li>
-        </ul>
-    </div>
-</main>
+</div>
 
 <footer>
     <div class="row footer">
@@ -111,7 +100,3 @@
         </div>
     </div>
 </footer>
-
-</body>
-
-</html>
