@@ -21,7 +21,14 @@ body{
   text-align: center;
   background:#000000;
   color:#f8f8ff;
-  padding: 30px
+  padding: 30px;
+  margin: 0;
+}
+
+@media (max-width:600px) {
+    .footer{
+        text-align: left;
+    }
 }
 
 .footer-social {
@@ -144,6 +151,16 @@ body{
 #social { 
     background: #3b5998;
     color: #ffffff;
+}
+
+@media screen and (max-width:600){
+    #social {
+        text-align: left;
+    }
+    #social h2{
+        font-size: medium;
+    }
+
 }
 
 #green  {
