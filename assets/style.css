@@ -25,8 +25,28 @@ body{
   margin: 0;
 }
 
+
+
 @media (max-width:600px) {
-    .footer{
+    .footer, .footer h3, .footer-social, .footer-social a, .form-inline, .footer-form, .footer-form button, .footer-sub, .footer-contact{
+        padding-top: 10px;
+         
+
+    }
+}
+
+@media (max-width:600px) {
+    .footer h3{
+        border-top: 2px solid #AD8A56;
+    }
+}
+@media (max-width:600px) {
+    .footer-contact a{
+        text-align: left;
+    }
+}
+@media (max-width:800px) {
+    .footer-contact a{
         text-align: left;
     }
 }
@@ -75,6 +95,8 @@ body{
     display: inline;
     width: 250px;
     height: 20px;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 .footer-contact a{
@@ -85,10 +107,6 @@ body{
     text-align: center;
 }
 
-.footer-form {
-    letter-spacing: 5px;
-    text-align: center;
-}
 .btn-light{
     background-color: #f8f8ff;
 }
@@ -143,9 +161,19 @@ body{
 }
 
 .light{
-    background: rgb(240, 255, 255);
-    color: black;
+    background: #f8f8ff;
+    color: #000000;
    
+}
+
+#meeting {
+    background-color: #8ef9f3;
+    color: #171738;
+    
+}
+
+#meeting h2{
+    color: #593c8f;
 }
 
 #social { 
@@ -153,19 +181,42 @@ body{
     color: #ffffff;
 }
 
-@media screen and (max-width:600){
-    #social {
-        text-align: left;
-    }
-    #social h2{
+@media screen and (max-width:600px){
+    #social h2, #green h2, #ecological h2, header{
         font-size: medium;
     }
 
 }
+#mice { 
+    display: block;
+    width: 100%;
+  border: none;
+  background-color:	#593c8f;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  color: #8ef9f3;
+  border-style: solid;
+  border-color: #db5461;
+}
 
-#green  {
-    background-color: #00873E;
-    color: #ffffff;
+#mice:hover{
+    color: #593c8f;
+    background-color: #8ef9f3 ;
+    border-style: solid;
+  border-color: #593c8f;
+}
+
+#green{
+    background-color: #228B22;
+    color: #DCFFFD;
 }
 
 #ecological { 
@@ -304,9 +355,24 @@ body{
     font-size: larger;
 }
 
-.black h1, h2 {
-    color: #f8f8ff;
+@media screen and (max-width){
+    .black ul li{
+        text-align: center;
+        word-wrap: break-word;
+    }
 }
+
+.black h2{
+    color: #f8f8ff;
+    border-bottom: 2px solid #AD8A56;
+}
+
+@media (max-width:600px){
+    .black h2{
+          font-size: x-large;
+    }
+}
+
 .button { 
     display: block;
     width: 100%;
@@ -329,31 +395,6 @@ body{
 
 ul#contact li{
     display:inline;
-}
-
-#mice { 
-    display: block;
-    width: 100%;
-  border: none;
-  background-color:	#00BFFF;
-  padding: 20px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  text-align: center;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  text-align: center;
-  display: inline-block;
-  color: #f8f8ff;
-  border-style: solid;
-  border-color: #36454f;
-}
-
-#mice:hover{
-    opacity: .75;
-    color: #36454f;
 }
 
 #form {
@@ -401,6 +442,13 @@ textarea, input{
 
 .msg textarea{
  height: 212px;
+}
+
+@media (max-width:600px){
+    .boxc{
+        display: block;
+        padding: 0;
+}
 }
 
 ::-webkit-input-placeholder {
