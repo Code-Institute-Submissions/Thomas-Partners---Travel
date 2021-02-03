@@ -192,7 +192,8 @@ height: auto;}
 
 .p6{ background-image: url('../assets/images/phone.jpg');
 width: 100%;
-height: auto;}
+height: auto;
+}
 
 @media screen and (max-width:800px){
     .p6{background-attachment: scroll;}
@@ -226,8 +227,8 @@ height: auto;}
 }
 
 @media screen and (max-width:600px){
-    #social h2, #green h2, #ecological h2, header{
-        font-size: large;
+    #social h2, #green h2, #ecological h2,{
+        font-size: medium;
     }
 
 }
