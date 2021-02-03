@@ -150,11 +150,37 @@ body{
 }
 
 .p1{ background-image: url('../assets/images/about.jpg');}
-.p2{ background-image: url('../assets/images/social\ responsibility.jpg');}
-.p3{ background-image: url('../assets/images/environmental\ responsibility.jpg');}
-.p4{ background-image: url('../assets/images/red\ consulatant.jpg');}
-.p5{ background-image: url('../assets/images/meeting.jpg');}
-.p6{ background-image: url('../assets/images/phone.jpg');}
+
+@media screen and (max-width:600px){
+    .p1{background-image: url('../assets/images/aboutiPad.jpg');}
+    }
+
+@media screen and (max-width:375px){
+.p1{background-image: url('../assets/images/aboutiPhone.jpg');}
+    }
+
+.p2{ background-image: url('../assets/images/social-responsibility.jpg');
+width: 100%;
+height: auto;}
+
+
+.p3{ background-image: url('../assets/images/environmental-responsibility.jpg');}
+
+@media screen and (max-width:600px){
+    .p3{background-image: url('../assets/images/environmental-responsibility-iPad.jpg');}
+    }
+
+@media screen and (max-width:375px){
+.p3{background-image: url('../assets/images/environmental-responsibility-iPhone.jpg');}
+    }
+
+.p4{ background-image: url('../assets/images/red-consulatant.jpg');
+width: 100%;
+height: auto;}
+
+.p5{ background-image: url('../assets/images/meeting.jpg');
+width: 100%;
+height: auto;}
 
 .section { text-align: center;
     padding: 50px 80px;
