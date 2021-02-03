@@ -6,12 +6,18 @@ body{
 .header {
   padding: 60px;
   text-align: center;
-  background: rgb(240, 255, 255);
-  color: black;
+  background: #8ef9f3;
+  color: #171738;
 }
 
-  .header h5 {
+.header h1 {
+    color: #593c8f;
+}
+
+
+.header h5 {
       font-style: oblique;
+      color: #171738
 }
 
 .footer{
@@ -24,8 +30,6 @@ body{
   padding: 30px;
   margin: 0;
 }
-
-
 
 @media (max-width:600px) {
     .footer, .footer h3, .footer-social, .footer-social a, .form-inline, .footer-form, .footer-form button, .footer-sub, .footer-contact{
@@ -151,37 +155,46 @@ body{
 
 .p1{ background-image: url('../assets/images/about.jpg');}
 
-@media screen and (max-width:600px){
-    .p1{background-image: url('../assets/images/aboutiPad.jpg');}
-    }
-
-@media screen and (max-width:375px){
-.p1{background-image: url('../assets/images/aboutiPhone.jpg');}
+@media screen and (max-width:800px){
+    .p1{background-attachment: scroll;}
     }
 
 .p2{ background-image: url('../assets/images/social-responsibility.jpg');
 width: 100%;
 height: auto;}
 
+@media screen and (max-width:800px){
+    .p2{background-attachment: scroll;}
+    }
+
 
 .p3{ background-image: url('../assets/images/environmental-responsibility.jpg');}
 
-@media screen and (max-width:600px){
-    .p3{background-image: url('../assets/images/environmental-responsibility-iPad.jpg');}
-    }
-
-@media screen and (max-width:375px){
-.p3{background-image: url('../assets/images/environmental-responsibility-iPhone.jpg');}
+@media screen and (max-width:800px){
+    .p3{background-attachment: scroll;}
     }
 
 .p4{ background-image: url('../assets/images/red-consulatant.jpg');
 width: 100%;
 height: auto;}
 
+@media screen and (max-width:800px){
+    .p4{background-attachment: scroll;}
+    }
+
+@media screen and (max-width:400px){
+    .p4{
+        background-image: url('../assets/images/office-1209640_640.jpg');
+    }
+}
+
 .p5{ background-image: url('../assets/images/meeting.jpg');
 width: 100%;
 height: auto;}
 
+@media screen and (max-width:800px){
+    .p5{background-attachment: scroll;}
+    }
 .section { text-align: center;
     padding: 50px 80px;
 }
@@ -201,6 +214,8 @@ height: auto;}
 #meeting h2{
     color: #593c8f;
 }
+
+
 
 #social { 
     background: #3b5998;
@@ -525,5 +540,5 @@ textarea, input{
  }
 
  .input-fields,.msg{
-   width: 100%;
+     width: 100%;
  }
