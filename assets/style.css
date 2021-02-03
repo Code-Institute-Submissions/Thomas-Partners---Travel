@@ -137,7 +137,7 @@ body{
     color:  white;
 }
 
-.p1, .p2, .p3, .p4, .p5{
+.p1, .p2, .p3, .p4, .p5, .p6{
   min-height: 400px; 
   background-attachment: fixed;
   background-position: center;
@@ -146,20 +146,14 @@ body{
   opacity: 0.70;
 }
 
-.p6 {
-    min-height: 900px;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .p1{ background-image: url('../assets/images/about.jpg');}
 
 @media screen and (max-width:800px){
     .p1{background-attachment: scroll;}
     }
 
-.p2{ background-image: url('../assets/images/social-responsibility.jpg');
+.p2{ 
+background-image: url('../assets/images/social-responsibility.jpg');
 width: 100%;
 height: auto;}
 
@@ -195,6 +189,15 @@ height: auto;}
 @media screen and (max-width:800px){
     .p5{background-attachment: scroll;}
     }
+
+.p6{ background-image: url('../assets/images/phone.jpg');
+width: 100%;
+height: auto;}
+
+@media screen and (max-width:800px){
+    .p6{background-attachment: scroll;}
+    }
+
 .section { text-align: center;
     padding: 50px 80px;
 }
@@ -224,7 +227,7 @@ height: auto;}
 
 @media screen and (max-width:600px){
     #social h2, #green h2, #ecological h2, header{
-        font-size: medium;
+        font-size: large;
     }
 
 }
