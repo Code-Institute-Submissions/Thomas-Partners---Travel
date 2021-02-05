@@ -40,12 +40,18 @@ Our images all have a purpose behind them,
 
 ### Wireframes
 [Balsamiq:](https://balsamiq.com/) was used to create the during the below wireframes
+<<<<<<< HEAD
 * Index Wireframe (Desktop, Tablet & Mobile)
 ![Index.html](https://raw.githubusercontent.com/coopsx/Thomas-Partners---Travel/main/Index%20Wireframe.jpg)
 * Service Wireframe (Desktop, Tablet & Mobile) 
 ![Service.html](https://raw.githubusercontent.com/coopsx/Thomas-Partners---Travel/main/Service%20Wireframe.jpg)
 * Contact Us Wireframe (Desktop, Tablet & Mobile)
 ![Contact.html](https://raw.githubusercontent.com/coopsx/Thomas-Partners---Travel/main/Contact%20Wireframe.jpg)
+=======
+Index Wireframe (Desktop, Tablet & Mobile) - ![Alt text]()
+Service Wireframe (Desktop, Tablet & Mobile) - ![Alt text]()
+Contact Us Wireframe (Desktop, Tablet & Mobile) - ![Alt text]()
+>>>>>>> 5b55c8234fdd0d3d9224dbb19a4bd4b8a1018b63
 
 ## Features
 1. Simple to use lay out
